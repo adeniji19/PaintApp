@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">LMoN</string>
+    <string name="notification_title">Late Meal!!</string>
+    <string name="notification_text">Get to Frist NOW!!</string>
+    <string name="title_activity_show_notification_detail">ShowNotificationDetailActivity</string>
 </resources>
