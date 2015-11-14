@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
     public void showNotification() {
         PendingIntent pi = PendingIntent.getActivity(this, 0, new Intent(this, ShowNotificationDetailActivity.class), 0);
         Resources r = getResources();
+
         Notification notification = new NotificationCompat.Builder(this)
                 .setTicker(r.getString(R.string.notification_title))
                 .setSmallIcon(android.R.drawable.ic_menu_report_image)
